@@ -32,9 +32,217 @@
             app:dotsWidthFactor="2"
             app:selectedDotColor="@color/colorPrimaryDark"
         />
-        
-        </LinearLayout>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/lato_light"
+                android:gravity="center"
+                android:text="Want a customized vacation at affordable prices? Travelguide has 1000+ satisfied customers.."
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:layout_marginTop="10dp"
+                />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="110dp"
+            android:layout_marginTop="20dp"
+
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:shadowDy="30"
+            android:shadowRadius="50"
+            >
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:fontFamily="@font/lato_light"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="3"
+                android:gravity="center_vertical"
+                android:text="@string/review1"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_menu_camera"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+
+                android:shadowColor="#000"
+                android:shadowDx="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:shadowDy="30"
+                android:shadowRadius="50"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:fontFamily="@font/lato_light"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:text="@string/review1"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_menu_camera"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+
+                android:shadowColor="#000"
+                android:shadowDx="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:shadowDy="30"
+                android:shadowRadius="50"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:fontFamily="@font/lato_light"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:text="@string/review1"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_menu_camera"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+
+                android:shadowColor="#000"
+                android:shadowDx="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:shadowDy="30"
+                android:shadowRadius="50"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:fontFamily="@font/lato_light"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:text="@string/review1"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_menu_camera"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                android:layout_marginTop="20dp"
+
+                android:shadowColor="#000"
+                android:shadowDx="0"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:shadowDy="30"
+                android:shadowRadius="50"
+                >
+                <LinearLayout
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:fontFamily="@font/lato_light"
+                        android:textSize="18sp"
+                        android:textColor="#000"
+                        android:layout_marginLeft="15dp"
+                        android:layout_weight="3"
+                        android:gravity="center_vertical"
+                        android:text="@string/review1"/>
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="100dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/ic_menu_camera"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:text="Book now"
+                android:textAllCaps="true"
+                android:layout_width="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_height="70dp"
+                android:background="@drawable/button_background"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/athiti"
+                android:textColor="@color/login_form_details"
+                android:textSize="30dp"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2020 | Travelguide Inc. Pvt. Ltd"
+                android:fontFamily="@font/lato_light"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                />
+        </LinearLayout>
     </ScrollView>
 
 </RelativeLayout>
