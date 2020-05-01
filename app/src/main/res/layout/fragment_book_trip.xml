@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BookTripFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Book the Vacation of your Dreams.."
+            android:fontFamily="@font/lato_light"
+            android:textSize="20sp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/textView"
+            />
+
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:hint="Enter the destination here..."
+            android:fontFamily="@font/lato_light"
+            android:textSize="20dp"
+            android:textColor="#000"
+            android:layout_marginTop="10dp"
+            android:id="@+id/destination"
+            android:background="@drawable/edit_text_background"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="40dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="Select Dates"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:layout_marginLeft="20dp"/>
+
+            <Button
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/button_background_login"
+                android:layout_marginLeft="40dp"
+                android:elevation="4dp"
+                android:text="CLick Here"
+                android:id="@+id/selectDates"
+                android:fontFamily="@font/athiti"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp">
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="--/--/----"
+                android:layout_weight="1"
+                android:fontFamily="@font/lato_light"
+                android:textSize="20dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:id="@+id/startDate"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:text="--/--/----"
+                android:textAlignment="center"
+                android:layout_weight="1"
+                android:id="@+id/endDate"
+                android:textStyle="bold"
+                android:fontFamily="@font/lato_light"
+                android:textSize="20dp"
+                android:textColor="#000"/>
+        </LinearLayout>
+
+        <Button
+            android:text="CONFIRM"
+            android:textAllCaps="true"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:background="@drawable/button_background"
+            android:layout_marginTop="40dp"
+            android:fontFamily="@font/athiti"
+            android:textColor="@color/login_form_details"
+            android:textSize="30dp"
+            android:id="@+id/confirm_button"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

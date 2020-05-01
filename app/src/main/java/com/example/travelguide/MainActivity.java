@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
         final SharedPreferences.Editor editor = preferences.edit();
 
         Toolbar toolbar = findViewById(R.id.toolbar);
+        toolbar.setNavigationIcon(R.drawable.menu);
         setSupportActionBar(toolbar);
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {

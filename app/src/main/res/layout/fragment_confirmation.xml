@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ConfirmationFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hi there\n\nYour have successfully booked your trip. Please refer to the details mentioned below in order to track your booking. We wish you an amazing vacation."
+            android:gravity="center_vertical"
+            android:textSize="20dp"
+            android:fontFamily="@font/lato_light"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="~Travelguide Inc. Pvt. Ltd."
+            android:layout_marginRight="10dp"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:fontFamily="@font/lato_light"
+            android:textColor="#000"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="0dp"
+            android:shadowColor="#000"
+            android:shadowDx="0"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:shadowDy="30"
+            android:shadowRadius="50"
+            android:id="@+id/platinum_package"
+            android:elevation="10dp"
+            >
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+</FrameLayout>

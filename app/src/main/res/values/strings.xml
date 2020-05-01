@@ -13,4 +13,10 @@
 
     <string name="home_second">Home Second</string>
     <string name="review1">Travelguide has made my family vacation for which I was saving from long time memorable and an experience of a lifetime. <b>- Akshit</b></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="silver_benifits"><ul><li>Guide</li></ul></string>
+    <string name="gold_benifits"><ul><li>Guide</li>\n<li>Vehicle</li></ul></string>
+    <string name="platinum_benifits"><ul><li>Guide</li>\n<li>Vehicle</li>\n<li>Accomodation</li></ul></string>
 </resources>

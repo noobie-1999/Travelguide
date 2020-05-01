@@ -12,32 +12,86 @@
         tools:layout="@layout/fragment_home">
 
         <action
-            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
-            app:destination="@id/nav_home_second" />
+            android:id="@+id/action_HomeFragment_to_BookTripFragment"
+            app:destination="@id/nav_book_trip" />
     </fragment>
-    <fragment
-        android:id="@+id/nav_home_second"
-        android:name="com.example.travelguide.ui.home.HomeSecondFragment"
-        android:label="@string/home_second"
-        tools:layout="@layout/fragment_home_second">
-        <action
-            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
-            app:destination="@id/nav_home" />
 
+    <fragment
+        android:id="@+id/nav_book_trip"
+        android:name="com.example.travelguide.BookTripFragment"
+        android:label="Book Trip"
+        tools:layout="@layout/fragment_book_trip">
         <argument
-            android:name="myArg"
-            app:argType="string" />
+            android:name="message"
+            android:defaultValue="Default Value has been taken."/>
+        <action
+            android:id="@+id/action_BookTripFragment_to_GalleryFragment"
+            app:destination="@id/nav_select_package"/>
+
     </fragment>
 
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.travelguide.ui.gallery.GalleryFragment"
         android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        tools:layout="@layout/fragment_gallery"
+        >
+
+        <argument
+            android:name="start"
+            android:defaultValue="null"/>
+        <argument
+            android:name="end"
+            android:defaultValue="null"/>
+
+    </fragment>
 
     <fragment
         android:id="@+id/nav_slideshow"
         android:name="com.example.travelguide.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_select_package"
+        android:name="com.example.travelguide.SelectPackageFragment"
+        android:label="Select Package"
+        tools:layout="@layout/fragment_select_package">
+        <action
+            android:id="@+id/action_SelectPacakgeFragment_to_Confirmation_Fragment"
+            app:destination="@+id/nav_confirmation_fragment"/>
+        <argument
+            android:name="start"
+            android:defaultValue="--/--/----"/>
+        <argument
+            android:name="end"
+            android:defaultValue="--/--/----"/>
+        <argument
+            android:name="destination"
+            android:defaultValue="null"/>
+
+        <argument
+            android:name="tripLength"
+            android:defaultValue="0"
+            />
+
+    </fragment>
+    <fragment
+        android:id="@+id/nav_confirmation_fragment"
+        android:name="com.example.travelguide.ConfirmationFragment"
+        android:label="Invoice"
+        tools:layout="@layout/fragment_confirmation">
+        <argument
+            android:name="start"
+            android:defaultValue="--/--/----"/>
+        <argument
+            android:name="end"
+            android:defaultValue="--/--/----"/>
+        <argument
+            android:name="destination"
+            android:defaultValue="null"/>
+        <argument
+            android:name="package"
+            android:defaultValue="silver"/>
+    </fragment>
+
 </navigation>

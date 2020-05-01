@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <com.savvi.rangedatepicker.CalendarPickerView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/calendar_view"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingBottom="16dp"
+        android:scrollbarStyle="outsideOverlay"
+        android:clipToPadding="false"
+        app:tsquare_dividerColor="@color/calendar_bg"
+        app:tsquare_headerTextColor="@color/colorPrimary"
+        app:tsquare_titleTextColor="@color/colorPrimary"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+        <Button
+            android:text="Cancel"
+            android:textAllCaps="true"
+            android:layout_width="0dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_background_login"
+            android:fontFamily="@font/athiti"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:id="@+id/cancel"
+            android:layout_weight="1"
+            />
+
+        <View
+            android:text="Book now"
+            android:textAllCaps="true"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:fontFamily="@font/athiti"
+            android:textColor="@color/login_form_details"
+            android:textSize="30dp"
+            android:layout_weight="1"
+            />
+
+        <Button
+            android:text="Confirm"
+            android:textAllCaps="true"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_height="40dp"
+            android:background="@drawable/button_background"
+            android:fontFamily="@font/athiti"
+            android:textColor="@color/login_form_details"
+            android:textSize="20sp"
+            android:id="@+id/confirm_button"
+            />
+
+    </LinearLayout>
+    <View
+        android:layout_height="10dp"
+        android:layout_width="match_parent"
+        android:background="@android:color/transparent"/>
+</LinearLayout>
