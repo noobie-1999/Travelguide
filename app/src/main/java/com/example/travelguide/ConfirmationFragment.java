@@ -61,15 +61,6 @@ public class ConfirmationFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View root =  inflater.inflate(R.layout.fragment_confirmation, container, false);
-
-        String destination = getArguments().getString("destination");
-        String start = getArguments().getString("start");
-        String end = getArguments().getString("end");
-        String pack = getArguments().getString("package");
-
-        TextView tv = root.findViewById(R.id.textView);
-        tv.setText(destination+"\n"+start+"\n"+end+"\n"+pack);
-
         return root;
     }
 }
